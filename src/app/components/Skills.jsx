@@ -11,7 +11,9 @@ const SkillData = [
     description: "Frontend description",
     image: "/images/skill/1.png",
     
-    icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",name:"React Js"}, {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",name:"Next Js"},{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",name:"HTML5"},{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",name:"CSS3"},{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",name:"Javascript"},{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg",name:"Bootstrap"}]
+    icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",name:"React Js"}, {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",name:"Next Js"},
+      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",name:"Typescript"},
+      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",name:"HTML5"},{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",name:"CSS3"},{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",name:"Javascript"},{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg",name:"Bootstrap"}]
   },
   {
     id: 2,
@@ -19,7 +21,10 @@ const SkillData = [
     description: "Backend description",
     image: "/images/skill/2.png",
    
-    icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",name:"Node Js"},
+    icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",name:"Java"},
+      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",name:"Spring Boot"},
+      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",name:"Node Js"},
+      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",name:"MySQL"},
      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",name:"Express Js"},
      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" ,name:"MongoDB"},
      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",name:"FireBase"},
@@ -27,16 +32,23 @@ const SkillData = [
   },
   {
     id: 3,
-    title: "Android",
-    description: "Android description",
-    
-    
-    icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg",name:"Kotlin"},
-     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original-wordmark.svg",name:"Android Studio"},
-     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" ,name:"XML"},
-     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",name:"FireBase"},
+    title: "AI/ML",
+    description: "Authentication and CRUD operations",
+    image: "/images/skill/5.png",
+   icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",name:"Tensorflow"},
+    {url:"https://avatars.githubusercontent.com/u/101125020?s=200&v=4",name:"Langchain"},
+    {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openrouter/openrouter-original.svg",name:"OpenRouter"},
+    {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",name:"FastAPI"},
+    {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/transformers/transformers-original.svg",name:"Transformers"},
+    {url:"https://avatars.githubusercontent.com/u/101125020?s=200&v=4",name:"Langraph"},
+
+     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg",name:"Keras"},
+     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg",name:"Jupyter"},
+     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" ,name:"Pytorch"},
+    {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikit-learn/scikit-learn-original.svg",name:"Scikit-learn"},
     ]
   },
+ 
   {
     id: 4,
     title: "Other",
@@ -50,16 +62,16 @@ const SkillData = [
      {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jiraalign/jiraalign-original.svg",name:"Jira"},
     ]
   },
-  {
+   {
     id: 5,
-    title: "Ai",
-    description: "Authentication and CRUD operations",
-    image: "/images/skill/5.png",
-   
-    icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",name:"Tensorflow"},
-     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg",name:"Jupyter"},
-     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" ,name:"Pytorch"},
+    title: "Android",
+    description: "Android description",
     
+    
+    icons: [{url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg",name:"Kotlin"},
+     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original-wordmark.svg",name:"Android Studio"},
+     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" ,name:"XML"},
+     {url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",name:"FireBase"},
     ]
   },
   
